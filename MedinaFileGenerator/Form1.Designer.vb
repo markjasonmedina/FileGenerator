@@ -66,33 +66,39 @@ Partial Class Form1
         '
         'txt_button
         '
+        Me.txt_button.BackColor = System.Drawing.Color.Black
         Me.txt_button.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txt_button.ForeColor = System.Drawing.Color.White
         Me.txt_button.Location = New System.Drawing.Point(198, 209)
         Me.txt_button.Name = "txt_button"
         Me.txt_button.Size = New System.Drawing.Size(75, 33)
         Me.txt_button.TabIndex = 3
         Me.txt_button.Text = "TXT"
-        Me.txt_button.UseVisualStyleBackColor = True
+        Me.txt_button.UseVisualStyleBackColor = False
         '
         'xml_button
         '
+        Me.xml_button.BackColor = System.Drawing.Color.Black
         Me.xml_button.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.xml_button.ForeColor = System.Drawing.Color.White
         Me.xml_button.Location = New System.Drawing.Point(279, 209)
         Me.xml_button.Name = "xml_button"
         Me.xml_button.Size = New System.Drawing.Size(75, 33)
         Me.xml_button.TabIndex = 4
         Me.xml_button.Text = "XML"
-        Me.xml_button.UseVisualStyleBackColor = True
+        Me.xml_button.UseVisualStyleBackColor = False
         '
         'json_button
         '
+        Me.json_button.BackColor = System.Drawing.Color.Black
         Me.json_button.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.json_button.ForeColor = System.Drawing.Color.White
         Me.json_button.Location = New System.Drawing.Point(360, 209)
         Me.json_button.Name = "json_button"
         Me.json_button.Size = New System.Drawing.Size(75, 33)
         Me.json_button.TabIndex = 5
         Me.json_button.Text = "JSON"
-        Me.json_button.UseVisualStyleBackColor = True
+        Me.json_button.UseVisualStyleBackColor = False
         '
         'generate_file
         '
