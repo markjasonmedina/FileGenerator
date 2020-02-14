@@ -106,9 +106,9 @@ Partial Class Form1
         Me.generate_file.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.generate_file.Location = New System.Drawing.Point(47, 214)
         Me.generate_file.Name = "generate_file"
-        Me.generate_file.Size = New System.Drawing.Size(136, 22)
+        Me.generate_file.Size = New System.Drawing.Size(123, 22)
         Me.generate_file.TabIndex = 6
-        Me.generate_file.Text = "Generate File:"
+        Me.generate_file.Text = "Save File As:"
         '
         'Name_TextBox
         '
