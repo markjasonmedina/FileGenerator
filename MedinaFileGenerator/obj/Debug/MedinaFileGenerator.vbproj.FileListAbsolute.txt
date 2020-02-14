@@ -1,0 +1,11 @@
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\obj\Debug\MedinaFileGenerator.Generate.resources
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\obj\Debug\MedinaFileGenerator.Resources.resources
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\obj\Debug\MedinaFileGenerator.vbproj.GenerateResource.cache
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\bin\Debug\MedinaFileGenerator.exe.config
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\bin\Debug\MedinaFileGenerator.exe
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\bin\Debug\MedinaFileGenerator.pdb
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\bin\Debug\MedinaFileGenerator.xml
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\obj\Debug\MedinaFileGenerator.exe
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\obj\Debug\MedinaFileGenerator.xml
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\obj\Debug\MedinaFileGenerator.pdb
+C:\Users\Mark Jason Medina\source\repos\MedinaFileGenerator\MedinaFileGenerator\obj\Debug\MedinaFileGenerator.vbprojAssemblyReference.cache

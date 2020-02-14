@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Generate
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,11 +20,11 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Name = New System.Windows.Forms.Label()
-        Me.Age = New System.Windows.Forms.Label()
-        Me.Address = New System.Windows.Forms.Label()
+        Me.Name_Label = New System.Windows.Forms.Label()
+        Me.Age_Label = New System.Windows.Forms.Label()
+        Me.Address_Label = New System.Windows.Forms.Label()
         Me.txt_button = New System.Windows.Forms.Button()
         Me.xml_button = New System.Windows.Forms.Button()
         Me.json_button = New System.Windows.Forms.Button()
@@ -34,35 +34,35 @@ Partial Class Form1
         Me.Address_TextBox = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
-        'Name
+        'Name_Label
         '
-        Me.Name.AutoSize = True
-        Me.Name.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Name.Location = New System.Drawing.Point(47, 47)
-        Me.Name.Name = "Name"
-        Me.Name.Size = New System.Drawing.Size(68, 22)
-        Me.Name.TabIndex = 0
-        Me.Name.Text = "Name:"
+        Me.Name_Label.AutoSize = True
+        Me.Name_Label.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Name_Label.Location = New System.Drawing.Point(47, 47)
+        Me.Name_Label.Name = "Name_Label"
+        Me.Name_Label.Size = New System.Drawing.Size(68, 22)
+        Me.Name_Label.TabIndex = 0
+        Me.Name_Label.Text = "Name:"
         '
-        'Age
+        'Age_Label
         '
-        Me.Age.AutoSize = True
-        Me.Age.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Age.Location = New System.Drawing.Point(47, 88)
-        Me.Age.Name = "Age"
-        Me.Age.Size = New System.Drawing.Size(50, 22)
-        Me.Age.TabIndex = 1
-        Me.Age.Text = "Age:"
+        Me.Age_Label.AutoSize = True
+        Me.Age_Label.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Age_Label.Location = New System.Drawing.Point(47, 88)
+        Me.Age_Label.Name = "Age_Label"
+        Me.Age_Label.Size = New System.Drawing.Size(50, 22)
+        Me.Age_Label.TabIndex = 1
+        Me.Age_Label.Text = "Age:"
         '
-        'Address
+        'Address_Label
         '
-        Me.Address.AutoSize = True
-        Me.Address.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Address.Location = New System.Drawing.Point(47, 126)
-        Me.Address.Name = "Address"
-        Me.Address.Size = New System.Drawing.Size(90, 22)
-        Me.Address.TabIndex = 2
-        Me.Address.Text = "Address:"
+        Me.Address_Label.AutoSize = True
+        Me.Address_Label.Font = New System.Drawing.Font("Lucida Bright", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Address_Label.Location = New System.Drawing.Point(47, 126)
+        Me.Address_Label.Name = "Address_Label"
+        Me.Address_Label.Size = New System.Drawing.Size(90, 22)
+        Me.Address_Label.TabIndex = 2
+        Me.Address_Label.Text = "Address:"
         '
         'txt_button
         '
@@ -134,7 +134,7 @@ Partial Class Form1
         Me.Address_TextBox.Size = New System.Drawing.Size(274, 30)
         Me.Address_TextBox.TabIndex = 9
         '
-        'Form1
+        'Generate
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -146,19 +146,19 @@ Partial Class Form1
         Me.Controls.Add(Me.json_button)
         Me.Controls.Add(Me.xml_button)
         Me.Controls.Add(Me.txt_button)
-        Me.Controls.Add(Me.Address)
-        Me.Controls.Add(Me.Age)
-        Me.Controls.Add(Me.Name)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Controls.Add(Me.Address_Label)
+        Me.Controls.Add(Me.Age_Label)
+        Me.Controls.Add(Me.Name_Label)
+        Me.Name = "Generate"
+        Me.Text = "Save File As"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Name As Label
-    Friend WithEvents Age As Label
-    Friend WithEvents Address As Label
+    Friend WithEvents Name_Label As Label
+    Friend WithEvents Age_Label As Label
+    Friend WithEvents Address_Label As Label
     Friend WithEvents txt_button As Button
     Friend WithEvents xml_button As Button
     Friend WithEvents json_button As Button
